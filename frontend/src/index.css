@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    background-color: #f2f2f2;
+}
+
+.activeClassName {
+    color: lightblue!important;
+    font-weight: 500;
+}
+.ant-card-meta-title{
+    text-wrap: wrap !important;
+}
+
+.ant-picker-ok.button.ant-btn.css-dev-only-do-not-override-k7429z.ant-btn-primary.ant-btn-sm {
+    background-color: white !important;
+    color:#000 !important;
+}
+
+.ant-notification-notice-close{
+    text-decoration: none !important;
+}
+
+.ant-notification-notice-close:before{
+    font-family: "Font Awesome 5 Free";
+    content: "\f00d";
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-btn-primary:not(:disabled){
+    background-color: #ef4444 !important;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-modal .ant-modal-content {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px !important;
+}
+
+:where(.css-dev-only-do-not-override-k7429z).ant-carousel .slick-next > svg,
+:where(.css-dev-only-do-not-override-k7429z).ant-carousel .slick-prev > svg
+ {
+    color: rgba(0, 0, 0, 0.5) !important;
+    background-color: floralwhite;
+    padding: 2px;
+    border-radius: 50%;
+    height: 20px !important;
+    width: 20px !important;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: slategray !important;
+}
